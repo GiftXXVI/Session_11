@@ -1,0 +1,271 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/beige.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				<textarea data-template>
+					## ⌨💻🖥🖱
+					## FULL STACK WEB DEVELOPER NANODEGREE
+					### Session 11
+					#### Gift Chimphonda
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					## 🌧
+					**I’ve looked at clouds from both sides now, from up and down, and still somehow… it’s cloud illusions I recall… I really don’t know clouds at all.**
+					#### **Joni Mitchell**
+				</textarea>
+			</section>
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+						## 🌩
+						## The Cloud
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Cloud Computing
+						- Cloud computing is the delivery of computing services over the Internet - **the cloud** - to offer faster innovation, flexible resources, and economies of scale.
+						- You typically pay only for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently, and scale as your needs change.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Benefits of Cloud Computing
+						- Provision the right capacity at the right time.
+						- Avoid huge capital investments up front.
+						- Pay for only what you use.
+						- Scale globally in minutes.
+						- Automate delivery of infrastructure.
+						- Reduce effort of maintenance of infrastructure.
+						- Easily create redundancy using mirror sites.
+						- Take advantage of security standards enforced by the provider. 
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Types of Cloud Computing
+						- **Public cloud**: owned and operated by a third-party cloud service provider that delivers computing resources over the Internet.
+						- **Private cloud**: used exclusively by a single business or organization. Can be physically located on the company’s on-site datacenter or hosted by a third-party service provider. 
+						- **Hybrid cloud**: combine public and private clouds, bound together by technology that allows data and applications to be shared between them. 
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Types of Cloud Services
+						- **Infrastructure as a service (IaaS)**: services that provide infrastructure on a pay-as-you-go basis.
+						- **Platform as a service (PaaS)**: services that supply an on-demand environment for developing, testing, delivering, and managing software applications.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Types of Cloud Services
+						- **Software as a service (SaaS)**: services that deliver software applications over the Internet, on demand and typically on a subscription basis.
+						- **Serverless computing**: services that provide a cloud-native development model to build and run applications without having to manage servers.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Cloud Service Providers
+						- Amazon Web Services
+						- Microsoft Azure
+						- Google Cloud Platform
+					</textarea>
+				</section>
+			</section>
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+						## ![AWS](images/icons8-amazon-web-services.svg)
+						## AWS
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						![AWS](images/Amazon_Web_Services_Logo.svg)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### AWS
+					- AWS is a paid service, though you get free trials when you sign up a new account.
+					- Your credit card is required for signup.
+					- This Udacity course provides us with a limited federated account to learn and test the AWS amazing features.($25 credit)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### AWS Services
+					- **S3 (Simple Storage Service)**: is a cloud storage service provided by Amazon.
+					- **IAM (Identity and Access Management)**: is a policy management service for controlling access to AWS.
+					- **EC2 (Elastic compute cloud)**: is a cloud machine provided by Amazon for	hosting our application on the cloud
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### AWS Services
+					- **CloudFormation**: a service that allows you to create entire sets of services
+					from a single configuration Amazon 
+					- **Elastic Kubernetes Service (EKS)**: a managed container service to run and scale Kubernetes
+					applications in the cloud or on-premises.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### AWS Services
+					- **Elastic Beanstalk**: is a service for deploying and scaling
+					web applications and services developed with Java, .NET, PHP, Node.js,
+					Python, Ruby, Go, and Docker on servers such as Apache, Nginx,
+					Passenger, and IIS.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### AWS CLI
+					- A CLI based tool that you can use to control multiple AWS services from the command line and automate them through scripts.
+					- You can check if it is installed using the following command:
+					```bash
+					aws --version
+					```
+					- You should see similar output to this, if it is installed:
+					```bash
+					aws-cli/2.7.12 Python/3.9.11 Darwin/20.6.0 exe/x86_64 prompt/off
+					```
+					</textarea>
+				</section>
+			</section>
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+						![Kubernetes](images/kubernetes-icon.svg)
+						## Kubernetes</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### A Bottleneck
+					 - To massively increase the capacity of your application, it may be necessary to run millions or billions of containers at the same time.
+					 - It is clearly not possible to manage such a volume manually.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### The Solution: Scaling
+					- And for that, we have two types:
+						- **Vertical**: In this approach, we upgrade the resources on the host machine (RAM, CPU, etc.)
+						- **Horizontal**: In this approach, we buy a new machine and run the same instance parallel to it. 
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### The Solution: Scaling
+					- But what if peak demand is over and I don't need these resources anymore, how do I scale..down?
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### The Other Direction
+					- But what if peak demand is over and I don't need these resources anymore, how do I scale..down?
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### What is Kubernetes?
+					- **Kubernetes**, or K8s, is an open-source container orchestration
+					platform that automates deploying, managing and scaling
+					containerized applications.
+					- **K8s** as an abbreviation results from counting the eight letters
+					between the "K" and the "s".
+					- **Google** open-sourced the Kubernetes project in 2014 after
+					using it internally for 15 years.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### Kubernetes Components
+					- When you deploy Kubernetes, you create a **Cluster**.
+					- A Kubernetes **Cluster** consists of a set of worker machines, called **Nodes**.
+					- Every **Node** hosts some **Pods** and has a **Container** runtime, usually **Docker**.
+					- A **Pod** is a set of running **Containers**.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### Kubernetes Components
+					- In addition to Containers, a Pod also contains the following:
+						- An agent called a **kubelet** runs on each Node in the Cluster. It makes sure that Containers in a Pod are running and healthy.
+						- A network proxy called **kube-proxy** maintains network rules on Nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your Cluster.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### The Data Plane & The Control Plane
+					- In addition to Containers, a Pod also contains the following:
+						- The Cluster and everything within it (Nodes, Pods) constitute the **Data Plane**.
+						- On the other hand, the **Control Plane** manages the Nodes and the Pods in the Cluster.
+					- The Control Plane exposes the APIs that allow you to define, deploy and manage the entire lifecycle of Containers in your Cluster. (from a Web Console or a CLI)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+					### Why do we use Kubernetes?
+					- **Scaling**: It automatically scales up or down the resources (number
+					of containers) or application usage requirements based on the
+					incoming traffic.
+					- **Updating**: It allows us to update all of our containers automatically
+					without having to go through them one by one.
+					- **Elasticity**: By utilizing the cloud we can allocate, utilize, and scale
+					up or down to suit our demands and traffic with great flexibility.
+					</textarea>
+				</section>
+
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+				### Resources
+				- [What is Cloud Computing?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/)
+				- [What is Serverless?](https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless)
+				- [AWS Installation Procedure](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+				</textarea>
+			</section>
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
